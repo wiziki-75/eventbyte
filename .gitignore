@@ -1,1 +1,69 @@
 .eventbyte/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.fleet/
+.history/
+*.iml
+
+# ---- Node / PNPM / JS tooling ----
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npmrc.local
+
+# Caches / build outputs
+.cache/
+.eslintcache
+.stylelintcache
+.turbo/
+coverage/
+dist/
+build/
+tmp/
+temp/
+
+# ---- Environment files ----
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ---- Next.js (frontend/web) ----
+frontend/web/.next/
+frontend/web/out/
+.next/
+out/
+.vercel/
+
+# ---- Strapi ----
+frontend/strapi/.tmp/
+frontend/strapi/.cache/
+frontend/strapi/build/
+# Uploaded assets (keep placeholder files if any)
+frontend/strapi/public/uploads/**
+!frontend/strapi/public/uploads/.gitkeep
+
+# ---- Docker / Compose ----
+.docker/
+docker/*.log
+docker/*/tmp/
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ---- Misc binaries / local artifacts ----
+eventbyte
+eventbyte.exe
+*.log
+*.pid
+*.seed
